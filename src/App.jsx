@@ -1,4 +1,15 @@
+import Form from './Form'
+import ColorList from './ColorList'
+
 const App = () => {
-  return <h2>Color Generator Starter</h2>;
+  return (
+    <div>
+      <main>
+        <Form />
+        <ColorList />
+      </main>
+    </div>
+  );
 };
+
 export default App;
